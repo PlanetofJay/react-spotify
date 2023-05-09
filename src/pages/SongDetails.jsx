@@ -45,7 +45,7 @@ const SongDetails = () => {
               <p key={`lyrics-${line}-${i}`} className="text-gray-300 text-base my-1">{line}</p>
             ))
             : (
-              <p className="text-gray-400 text-base my-1">Sorry, No lyrics found!</p>
+              <p className="text-gray-300 text-base my-1">Sorry, No lyrics found!</p>
             )}
         </div>
       </div>
