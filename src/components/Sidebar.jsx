@@ -32,7 +32,7 @@ const Sidebar = () => {
         <img 
           src={logo} 
           alt='logo' 
-          className='w-full h-24 object-contain' 
+          className=' w-full h-20 object-contain' 
         />
         <NavLinks />
       </div>
