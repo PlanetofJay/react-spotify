@@ -18,7 +18,6 @@ const SongCard = ({ song, isPlaying, activeSong, index, data }) => {
   };
 
   return (
-    // [square brackets] with specific pixel
     <div className='flex flex-col w-[250px] p-4 animate-slideup rounded-2xl cursor-pointer'>
       <div className='relative w-full h-56 group'>
         <div className={`absolute inset-0 justify-center items-center bg-black bg-opacity-50 group-hover:flex
