@@ -13,7 +13,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 
 const TopChartCard = ({ song, index, isPlaying, activeSong, handlePauseClick, handlePlayClick }) => (
-  <div className='w-full flex flex-row items-center hover:bg-gray-400/50 py-2 p-4 rounded-lg cursor-pointer mb-2'>
+  <div className='w-full flex flex-row items-center hover:bg-gray-400/50 py-2 p-4 rounded-2xl cursor-pointer mb-2'>
     <h3 className='font-bold test-base text-white mr-3'>
       {index + 1}.
     </h3>
@@ -21,7 +21,7 @@ const TopChartCard = ({ song, index, isPlaying, activeSong, handlePauseClick, ha
       <img 
         src={song?.images?.coverart} 
         alt={song?.title} 
-        className='w-20 h-20 rounded-lg'
+        className='w-20 h-20 rounded-2xl'
       />
       <div className='flex-1 flex flex-col justify-center mx-3'>
         <Link to={`/songs/${song.key}`}>

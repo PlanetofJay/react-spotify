@@ -26,7 +26,7 @@ const Discover = () => {
         <select
           onChange={() => { }}
           value=''
-          className='bg-black/40 backdrop-blur-sm text-white p-3 text-sm rounded-lg outline-none sm:mt-0 mt-5'
+          className='bg-white/10 backdrop-blur-sm text-white p-3 text-sm rounded-2xl outline-none sm:mt-0 mt-5'
         >
           {genres.map((genre) => 
             <option 
