@@ -2,7 +2,7 @@ import Songbar from './SongBar';
 
 const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePlayclick, artistId }) => (
   <div className='flex flex-col'>
-    <h1 className='font-bold text-3xl text-white'>Related Songs:</h1>
+    <h1 className='text-xl text-gray-100'>Related Songs:</h1>
 
     <div className='mt-6 w-full flex flex-col'>
       {data?.map((song, index) => (

@@ -27,13 +27,13 @@ const Discover = () => {
 
           readme: XD || PS background
         */}
-        <h2 className='font-bold text-3xl text-white text-left'>
+        <h2 className='text-xl text-gray-100 text-left'>
           Discover {genreTitle}
         </h2>
         <select
           onChange={(e) => dispatch(selectGenreListId(e.target.value))}
           value={genreListId || 'pop'}
-          className='bg-white/10 backdrop-blur-sm text-white p-3 text-sm rounded-2xl outline-none sm:mt-0 mt-5'
+          className='bg-white/10 backdrop-blur-sm text-gray-100 p-3 text-sm rounded-2xl outline-none sm:mt-0 mt-5'
         >
           {genres.map((genre) =>
             <option 

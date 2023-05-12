@@ -14,7 +14,7 @@ const ArtistCard = ({ track }) => {
         src={track?.images?.coverart}
         className='w-full h56 rounded-2xl'
       />
-      <p className='mt-4 font-semibold text-lg text-white truncate'>{track?.subtitle}</p>
+      <p className='mt-4 text-lg text-gray-100 truncate'>{track?.subtitle}</p>
     </div>
   );
 };

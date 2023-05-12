@@ -11,7 +11,7 @@ const TopArtists = () => {
 
   return (
     <div className='flex flex-col'>
-      <h2 className='font-bold text-3xl text-white text-left mt-4 mb-10'>
+      <h2 className='text-xl text-gray-100 text-left mt-4 mb-10'>
         Discover Top Artists
       </h2>
 

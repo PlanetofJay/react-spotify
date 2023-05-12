@@ -26,7 +26,7 @@ const AroundYou = () => {
 
   return (
     <div className='flex flex-col'>
-      <h2 className='font-bold text-3xl text-white text-left mt-4 mb-10'>
+      <h2 className='text-xl text-gray-100 text-left mt-4 mb-10'>
         Around You, <span className='font-black'>{country}</span>
       </h2>
 
