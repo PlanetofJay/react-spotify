@@ -19,7 +19,7 @@ const Discover = () => {
 
   return (
     <div className='flex flex-col'>
-      <div className='w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10'>
+      <div className='w-full flex justify-between items-center sm:flex-row flex-col mt-2 mb-10'>
         {/* 
           TODO: improve UX/UI 
           create a component(CenterCard.jsx) with an center image, more static.
@@ -27,13 +27,13 @@ const Discover = () => {
 
           readme: XD || PS background
         */}
-        <h2 className='text-xl text-gray-100 text-left'>
+        <h2 className='text-xl mt-2 text-gray-100 text-left'>
           Discover {genreTitle}
         </h2>
         <select
           onChange={(e) => dispatch(selectGenreListId(e.target.value))}
           value={genreListId || 'pop'}
-          className='bg-white/10 backdrop-blur-sm text-gray-100 p-3 text-sm rounded-2xl outline-none sm:mt-0 mt-5'
+          className='bg-white/10 backdrop-blur-sm text-gray-100 p-2 text-xs rounded-2xl outline-none sm:mt-0 mt-5'
         >
           {genres.map((genre) =>
             <option 

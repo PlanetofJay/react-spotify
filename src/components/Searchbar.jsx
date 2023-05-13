@@ -27,7 +27,7 @@ const Searchbar = () => {
       </label>
 
       <div className='flex flex-row justify-start items-center'>
-        <FiSearch className='w-5 h-5 ml-4 text-gray-100' />
+        <FiSearch className='w-4 h-5 ml-4 text-gray-100' />
         <input
           name='search-field'
           autoComplete='off'
@@ -36,7 +36,7 @@ const Searchbar = () => {
           type='search'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className='flex-1 bg-transparent border-none outline-none placeholder-white text-base text-gray-100 p-4'
+          className='flex-1 bg-transparent border-none outline-none placeholder-white text-sm text-gray-100 p-4'
         />
       </div>
     </form>
