@@ -1,9 +1,10 @@
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Error, Loader, SongCard } from '../components';
+import { Error, Loader, SongCard, BannerCard } from '../components';
 import { genres } from '../assets/constants';
 import { selectGenreListId } from '../redux/features/playerSlice';
 import { useGetSongsByGenreQuery } from '../redux/services/shazamCore';
+
 
 const Discover = () => {
 
@@ -48,6 +49,11 @@ const Discover = () => {
       </div>
 
       <div className='flex flex-wrap sm:justify-start justify-center gap-8'>
+
+
+        <BannerCard />
+
+
         {data?.map((song, index) => (
           <SongCard 
             key={song.key}

@@ -1,5 +1,6 @@
 import Sidebar from './Sidebar';
 import Searchbar from './Searchbar';
+import BannerCard from './BannerCard';
 import SongCard from './SongCard';
 import TopPlay from './TopPlay';
 import ArtistCard from './ArtistCard';
@@ -22,4 +23,5 @@ export {
   MusicPlayer,
   Loader,
   Error,
+  BannerCard,
 };
