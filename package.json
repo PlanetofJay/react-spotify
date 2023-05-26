@@ -3,6 +3,26 @@
   "version": "0.1.0",
   "homepage": "https://planetofjay.github.io/react-spotify",
   "private": true,
+  "description": "A React Spotify Clone",
+  "keywords": [
+    "react",
+    "spotify",
+    "clone",
+    "redux",
+    "redux-toolkit",
+    "react-redux",
+    "react-router-dom",
+    "axios",
+    "tailwindcss",
+    "swiper",
+    "react-icons"
+  ],
+  "author": "Jaejin Lee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetofjay/react-spotify"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "axios": "^0.27.2",

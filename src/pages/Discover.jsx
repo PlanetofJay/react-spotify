@@ -21,13 +21,6 @@ const Discover = () => {
   return (
     <div className='flex flex-col'>
       <div className='w-full flex justify-between items-center sm:flex-row flex-col mt-2 mb-10'>
-        {/* 
-          TODO: improve UX/UI 
-          create a component(CenterCard.jsx) with an center image, more static.
-          fix font-size, align items, try to make it more clear and minimal.
-
-          readme: XD || PS background
-        */}
         <h2 className='text-xl mt-2 text-gray-100 text-left'>
           Discover {genreTitle}
         </h2>
